@@ -18,7 +18,7 @@ fn main() {
     }
 
     //
-    let mut x0: u128 = 0;
+    let mut x0: u128;
     let mut x1: u128 = 1;
     let mut x2: u128 = 1;
 
@@ -31,5 +31,5 @@ fn main() {
         n = n - 1;
     }
 
-    println!("(n={nth}) nth element: {x0}")
+    println!("(n={nth}) nth element: {x1}")
 }
